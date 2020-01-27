@@ -1,0 +1,16 @@
+{
+  "name": "sgpa-electron",
+  "version": "1.0.0",
+  "description": "sistema de emissão de senha e impressão via impressora termica",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.10"
+  }
+}

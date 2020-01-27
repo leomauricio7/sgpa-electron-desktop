@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>SGPA- Sistema de emissão de senha</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        .text-center {
+            text-align: center;
+        }
+
+        .title {
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .col-6 {
+            margin-bottom: 50px;
+        }
+
+        .btn {
+            background-image: url(https://cdn2.iconfinder.com/data/icons/medical-icons-110/512/medical_icon_1-512.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 130px;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <div class="container">
+        
+        <div class="jumbotron mt-3">
+            <img src="public/img/logo.png" class="img-fluid mx-auto d-block" alt="clinica ceda">
+            <h2 class="text-center title">Selecione o serviço</h2>
+            <div class="row align-items-center text-center">
+                <div class="col-6">
+                    <button type="button" class="btn btn-lg btn-default btn-block">Ambulatório</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn-lg btn-default btn-block">Neurologista</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn-lg btn-default btn-block">Pediatria</button>
+                </div>
+                <div class="col-6">
+                    <button type="button" class="btn btn-lg btn-default btn-block">Urologia</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">SGPA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://www.google.com.br">
+                        <img width="40" src="public/img/google.png" alt="google">
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Serviços</a>
+                </li>
+            </ul>
+        </div>
+        <script src="vendor/jquery/jquery-3.2.1.slim.min.js"></script>
+        <!-- <script src="vendor/jquery/popper.min.js"></script> -->
+        <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
